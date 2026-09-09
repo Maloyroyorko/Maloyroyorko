@@ -215,7 +215,7 @@ Information Leak    ███
 | [CVE-2025-0722](https://www.cve.org/CVERecord?id=CVE-2025-0722)   | Unrestricted File Upload | Library Card System               | needyamin Audit      |
 | [CVE-2025-0721](https://www.cve.org/CVERecord?id=CVE-2025-0721)   | Reflected XSS            | image_gallery                     | needyamin Audit      |
 | [CVE-2024-13205](https://www.cve.org/CVERecord?id=CVE-2024-13205) | Stored XSS               | E-Commerce-PHP                    | kurniaramadhan Audit |
-| [CVE-2024-13204](https://www.cve.org/CVERecord?id=CVE-2024-13204) | Broken Authentication    | E-Commerce-PHP                    | kurniaramadhan Audit |
+| [CVE-2024-13204](https://www.cve.org/CVERecord?id=CVE-2024-13204) | SQL Injection            | E-Commerce-PHP                    | kurniaramadhan Audit |
 
 > **Attribution note:** This table distinguishes records attributed to **Maloy Roy Orko** from vulnerabilities credited to other researchers, audits, or the wider security community.
 
