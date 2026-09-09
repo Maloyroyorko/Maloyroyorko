@@ -1,6 +1,6 @@
 # 🛡️ Maloy Roy Orko
 
-### Researcher · Penetration Tester · Bug Hunter · Ethical Hacker · CTF Player
+### Security Researcher · Penetration Tester · Bug Hunter · Ethical Hacker · CTF Player
 
 <p align="center">
   <a href="mailto:maloyroyorkooo@gmail.com">
@@ -13,51 +13,54 @@
     <img src="https://img.shields.io/badge/GitHub-Maloyroyorko-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   <a href="https://websecurityinsights.my.id">
-    <img src="https://img.shields.io/badge/Website-Web%20Security%20Insights-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/>
+    <img src="https://img.shields.io/badge/Web%20Security%20Insights-Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/>
   </a>
+</p>
+
+<p align="center">
+  <b>Web Security · Vulnerability Research · Offensive Security · Application Security</b>
 </p>
 
 ---
 
 ## 👋 About Me
 
-I am **Maloy Roy Orko**, an aspiring security researcher and penetration tester focused on offensive security, vulnerability research, and application security.
+**I am Maloy Roy Orko. An aspiring security researcher. Learning New Fields & Strategies Since 2019. 💻👨‍💻**
 
-**Learning New Fields & Strategies Since 2019.** 💻👨‍💻
+My work focuses on understanding how applications fail, validating vulnerabilities through hands-on testing, developing reproducible proof-of-concepts, and documenting security findings.
 
-My primary interests include:
+### Areas of Interest
 
-* 🌐 Web Application Security
-* 🔐 API & GraphQL Security
-* 🛡️ Vulnerability Assessment & Penetration Testing
-* 🐛 Vulnerability Research & CVE Discovery
-* 🔑 Authentication & JWT Security
-* 📱 Mobile Application Security
-* 🕵️ OSINT & Security Research
-* 🏴‍☠️ CTF & Offensive Security
-
-I enjoy breaking applications in controlled environments, manually validating vulnerabilities, developing reproducible proof-of-concepts, documenting technical findings, and sharing security knowledge.
+`Web Security` · `API Security` · `GraphQL Security` · `VAPT` · `Vulnerability Research` · `Authentication` · `JWT Security` · `Mobile Security` · `OSINT` · `CTF`
 
 ---
 
-# 🚀 Featured Projects
+# 🚀 Featured Security Projects
+
+> A selection of my primary hands-on security research and assessment projects.
+
+---
 
 ## 🔴 DVGA — GraphQL Application Security Assessment
 
 **Damn Vulnerable GraphQL Application**
 
-**Black-Box VAPT / DAST · 29 Aug 2026 – 3 Sep 2026**
+`Black-Box VAPT` · `DAST` · `GraphQL Security`
 
-Conducted a **6-day black-box Vulnerability Assessment and Penetration Testing engagement** against DVGA, focusing on GraphQL, API, authentication, authorization, injection, and application security.
+**29 Aug 2026 – 3 Sep 2026**
 
-### Assessment Results
+A **6-day black-box security assessment** focused on GraphQL, API, authentication, authorization, injection, and application-level attack surfaces.
 
-* 🔴 **13 confirmed vulnerabilities**
-* 🔥 **6 Critical**
-* 🟠 **6 High**
-* 🟡 **1 Medium**
-* **Highest CVSS v3.1:** 9.8
-* **Average CVSS:** 8.2
+### Findings
+
+| Metric                    | Result   |
+| :------------------------ | :------- |
+| Confirmed Vulnerabilities | **13**   |
+| Critical                  | 🔴 **6** |
+| High                      | 🟠 **6** |
+| Medium                    | 🟡 **1** |
+| Highest CVSS              | **9.8**  |
+| Average CVSS              | **8.2**  |
 
 ### Key Findings
 
@@ -71,15 +74,15 @@ Conducted a **6-day black-box Vulnerability Assessment and Penetration Testing e
 * GraphQL Resource Exhaustion
 * Authentication & Authorization weaknesses
 
-### Methodology & Tooling
+### Methodology
 
-**Methodologies:** OWASP WSTG · OWASP API Security principles
+`OWASP WSTG` · `OWASP API Security` · `Manual Testing` · `DAST`
 
-**Tools:**
-`Burp Suite` `OWASP ZAP` `InQL` `ffuf` `Katana` `Wapiti` `SQLMap` `GraphQL Voyager` `graphw00f` `JWT Tools` `Browser DevTools`
+### Tooling
 
-📂 **Repository:**
-https://github.com/Maloyroyorko/DVGA-application-security-assessment
+`Burp Suite` `OWASP ZAP` `InQL` `ffuf` `Katana` `Wapiti` `SQLMap` `GraphQL Voyager` `graphw00f` `JWT Tools`
+
+📂 **[View Repository →](https://github.com/Maloyroyorko/DVGA-application-security-assessment)**
 
 ---
 
@@ -87,21 +90,25 @@ https://github.com/Maloyroyorko/DVGA-application-security-assessment
 
 **Completely Ridiculous API**
 
-**Black-Box VAPT / DAST · 24 May 2026 - 30 May 2026**
+`Black-Box VAPT` · `DAST` · `API Security`
 
-Performed a **7-day black-box API security assessment** against crAPI, combining manual penetration testing with automated security testing.
+**24 May 2026 – 30 May 2026**
 
-### Assessment Results
+A **7-day black-box API security assessment** combining manual penetration testing, automated testing, vulnerability validation, evidence collection, and technical reporting.
 
-* 🔴 **18 confirmed findings**
-* 🔥 **2 Critical**
-* 🟠 **14 High**
-* 🟡 **2 Medium**
-* 📄 **129-page technical report**
+### Findings
+
+| Metric             | Result        |
+| :----------------- | :------------ |
+| Confirmed Findings | **18**        |
+| Critical           | 🔴 **2**      |
+| High               | 🟠 **14**     |
+| Medium             | 🟡 **2**      |
+| Technical Report   | **129 pages** |
 
 ### Key Findings
 
-* Broken Object Level Authorization (BOLA / IDOR)
+* Broken Object Level Authorization — BOLA / IDOR
 * JWT Authentication Bypass
 * JWT `None` Algorithm Attack
 * SQL Injection
@@ -109,95 +116,112 @@ Performed a **7-day black-box API security assessment** against crAPI, combining
 * SSRF
 * Authentication & Authorization weaknesses
 
-### Methodology & Tooling
+### Methodology
 
-**Methodologies:** OWASP WSTG · OWASP API Security Top 10
+`OWASP WSTG` · `OWASP API Security Top 10` · `Manual Testing` · `DAST`
 
-**Tools:**
+### Tooling
+
 `Burp Suite` `OWASP ZAP` `Wapiti` `Katana` `ffuf` `Browser DevTools`
 
-📂 **Repository:**
-https://github.com/Maloyroyorko/crAPI-application-security-assessment
+📂 **[View Repository →](https://github.com/Maloyroyorko/crAPI-application-security-assessment)**
 
 ---
 
 ## 🟢 IP OSINT Toolkit
 
-An open-source **IP address OSINT toolkit** developed for cybersecurity research, reconnaissance, and intelligence gathering.
+**Open-Source IP Intelligence & Reconnaissance Toolkit**
+
+`OSINT` · `Reconnaissance` · `IP Intelligence`
+
+An open-source toolkit developed to assist security researchers with IP address intelligence, reconnaissance, geolocation, and OSINT workflows.
 
 ### Capabilities
 
-* 🌐 IP address intelligence
-* 📍 IP geolocation
-* 🔎 Basic & advanced IP OSINT
-* 🗺️ Mass IP location tracing
-* 📌 Forward & reverse geocoding
-* 🕵️ OSINT data collection
-* 🔍 Infrastructure reconnaissance
+* 🌐 IP Address Intelligence
+* 📍 IP Geolocation
+* 🔎 Basic & Advanced IP OSINT
+* 🗺️ Mass IP Location Tracing
+* 📌 Forward & Reverse Geocoding
+* 🕵️ OSINT Data Collection
+* 🔍 Infrastructure Reconnaissance
 
-The project was built as a practical security research utility for understanding publicly available IP intelligence and reconnaissance workflows.
-
-📂 **Repository:**
-https://github.com/Maloyroyorko/IP-OSINT-Toolkit
+📂 **[View Repository →](https://github.com/Maloyroyorko/IP-OSINT-Toolkit)**
 
 ---
 
 # 🐛 Vulnerability Research
 
-My vulnerability research focuses on discovering, manually validating, documenting, and responsibly disclosing security vulnerabilities.
+My vulnerability research focuses on **discovering, validating, documenting, and responsibly disclosing security vulnerabilities** across web applications and software systems.
 
-### Research Areas
+### Research Coverage
 
-`SQL Injection` · `XSS` · `RCE` · `CSRF` · `IDOR` · `Authentication` · `Authorization` · `File Upload` · `Information Disclosure` · `DoS` · `CWE-307`
+`SQL Injection` · `XSS` · `CSRF` · `IDOR` · `Authentication` · `Authorization` · `File Upload` · `Information Disclosure` · `DoS` · `Access Control` · `CWE-307`
 
-### Published CVE Records
+---
 
-🐛 Vulnerability Research & CVE Records
+## 📊 CVE Research Overview
 
-My vulnerability research focuses on identifying, validating, documenting, and responsibly disclosing security vulnerabilities across web applications and software systems.
+|                              |                                                |
+| :--------------------------- | :--------------------------------------------- |
+| 🐛 **Published CVE Records** | **28**                                         |
+| 🔎 **Primary Researcher**    | **Maloy Roy Orko**                             |
+| 🌐 **Primary Domain**        | Web Application Security                       |
+| 🧪 **Approach**              | Manual Testing · Validation · PoC Development  |
+| 📚 **Documentation**         | CVE Records · Technical Write-ups · Advisories |
 
-📊 Research Summary
-Metric	Result
-🐛 CVE Records	28
-🔎 Primary Researcher	Maloy Roy Orko
-🌐 Primary Focus	Web Application Security
-💉 Major Vulnerability Classes	SQL Injection · XSS · Authentication · Authorization · CSRF · File Upload
-🧪 Research Approach	Manual Testing · Vulnerability Validation · PoC Development
-📚 Documentation	CVE Records · Technical Write-ups · Security Advisories
-🔬 Comprehensive CVE Mapping Matrix
-CVE ID	Vendor	Product / Software	Vulnerability Type	Vulnerable Component	Discovered By / Advisory
-CVE-2025-9848	ScriptAndTools	Real Estate Management System 1.0	Execution After Redirect (EAR)	/admin/userlist.php	Maloy Roy Orko
-CVE-2025-9847	ScriptAndTools	Real Estate Management System 1.0	Unrestricted File Upload	/register.php (uimage)	Maloy Roy Orko
-CVE-2025-9651	shafhasan	chatbox 1.0	SQL Injection	/chat.php (user_id)	Maloy Roy Orko
-CVE-2025-6329	ScriptAndTools	Real Estate Management System 1.0	Authorization Bypass	/admin/userdelete.php	Maloy Roy Orko
-CVE-2025-5128	ScriptAndTools	Real-Estate-website-in-PHP 1.0	SQL Injection	/admin/ (Password)	Maloy Roy Orko
-CVE-2025-4067	ScriptAndTools	Online-Travling-System 1.0	Improper Access Control	/admin/viewpackage.php	Maloy Roy Orko
-CVE-2025-4066	ScriptAndTools	Online-Travling-System 1.0	Broken Authentication	/admin/login.php	Maloy Roy Orko
-CVE-2025-4065	ScriptAndTools	eCommerce-website-in-PHP 3.0	Information Disclosure	/admin/subscriber-csv.php	Maloy Roy Orko
-CVE-2025-4064	ScriptAndTools	Online-Travling-System 1.0	Improper Access Control	/admin/viewenquiry.php	Maloy Roy Orko
-CVE-2025-3975	Tutorials-Website	Employee Management System 1.0	SQL Injection	/admin/login.php	Security Community
-CVE-2025-3557	ScriptAndTools	eCommerce-website-in-PHP 3.0	Cross-Site Request Forgery	Multiple Endpoints	Maloy Roy Orko
-CVE-2025-3556	ScriptAndTools	eCommerce-website-in-PHP 3.0	SQL Injection	/product.php	Maloy Roy Orko
-CVE-2025-3555	ScriptAndTools	eCommerce-website-in-PHP 3.0	Reflected XSS	/search.php	Maloy Roy Orko
-CVE-2025-3537	Tutorials-Website	Employee Management System 1.0	Improper Authorization	/admin/update-user.php	Security Community
-CVE-2025-3536	Tutorials-Website	Employee Management System 1.0	Stored XSS	/admin/add-employee.php	Security Community
-CVE-2025-3489	Code-Projects	Blood Bank Management System 1.0	SQL Injection	/login.php	Code-Projects Audit
-CVE-2025-2041	oretnom23	Vehicle Service Management System 1.0	SQL Injection	/admin/login.php	oretnom23 Audit
-CVE-2025-2036	oretnom23	Vehicle Service Management System 1.0	Stored XSS	/admin/mechanics.php	oretnom23 Audit
-CVE-2025-2035	oretnom23	Vehicle Service Management System 1.0	Unrestricted File Upload	/admin/update_settings.php	oretnom23 Audit
-CVE-2025-1356	needyamin	Online Library Management System 1.0	Broken Authentication	/admin/index.php	needyamin Audit
-CVE-2025-1355	needyamin	Online Library Management System 1.0	SQL Injection	/login.php	needyamin Audit
-CVE-2025-0844	needyamin	Library Card System 1.0	Stored XSS	/admin/add_card.php	needyamin Audit
-CVE-2025-0843	needyamin	Library Card System 1.0	Improper Authorization	/admin/delete_card.php	needyamin Audit
-CVE-2025-0842	needyamin	Library Card System 1.0	SQL Injection	/card_details.php	needyamin Audit
-CVE-2025-0722	needyamin	Library Card System 1.0	Unrestricted File Upload	/admin/upload_logo.php	needyamin Audit
-CVE-2025-0721	needyamin	image_gallery 1.0	Reflected XSS	/view.php (Username)	needyamin Audit
-CVE-2024-13205	kurniaramadhan	E-Commerce-PHP 1.0	Stored XSS	/admin/create_product.php	kurniaramadhan Audit
-CVE-2024-13204	kurniaramadhan	E-Commerce-PHP 1.0	Broken Authentication	/admin/login.php	kurniaramadhan Audit
+### Vulnerability Classes
 
-Attribution: The matrix distinguishes vulnerabilities attributed to Maloy Roy Orko from records attributed to other researchers, audits, or the wider security community.
+```text
+SQL Injection       ████████████████████
+XSS                 ███████████████
+Authentication      ███████████
+Authorization       ███████████
+File Upload         ███████
+CSRF                ███
+Information Leak    ███
+```
 
-### Research Workflow
+---
+
+## 🔬 Published CVE Records
+
+| CVE                                                               | Vulnerability            | Product                           | Attribution          |
+| :---------------------------------------------------------------- | :----------------------- | :-------------------------------- | :------------------- |
+| [CVE-2025-9848](https://www.cve.org/CVERecord?id=CVE-2025-9848)   | Execution After Redirect | Real Estate Management System     | **Maloy Roy Orko**   |
+| [CVE-2025-9847](https://www.cve.org/CVERecord?id=CVE-2025-9847)   | Unrestricted File Upload | Real Estate Management System     | **Maloy Roy Orko**   |
+| [CVE-2025-9651](https://www.cve.org/CVERecord?id=CVE-2025-9651)   | SQL Injection            | chatbox                           | **Maloy Roy Orko**   |
+| [CVE-2025-6329](https://www.cve.org/CVERecord?id=CVE-2025-6329)   | Authorization Bypass     | Real Estate Management System     | **Maloy Roy Orko**   |
+| [CVE-2025-5128](https://www.cve.org/CVERecord?id=CVE-2025-5128)   | SQL Injection            | Real-Estate-website-in-PHP        | **Maloy Roy Orko**   |
+| [CVE-2025-4067](https://www.cve.org/CVERecord?id=CVE-2025-4067)   | Improper Access Control  | Online-Travling-System            | **Maloy Roy Orko**   |
+| [CVE-2025-4066](https://www.cve.org/CVERecord?id=CVE-2025-4066)   | Broken Authentication    | Online-Travling-System            | **Maloy Roy Orko**   |
+| [CVE-2025-4065](https://www.cve.org/CVERecord?id=CVE-2025-4065)   | Information Disclosure   | eCommerce-website-in-PHP          | **Maloy Roy Orko**   |
+| [CVE-2025-4064](https://www.cve.org/CVERecord?id=CVE-2025-4064)   | Improper Access Control  | Online-Travling-System            | **Maloy Roy Orko**   |
+| [CVE-2025-3975](https://www.cve.org/CVERecord?id=CVE-2025-3975)   | SQL Injection            | Employee Management System        | Security Community   |
+| [CVE-2025-3557](https://www.cve.org/CVERecord?id=CVE-2025-3557)   | CSRF                     | eCommerce-website-in-PHP          | **Maloy Roy Orko**   |
+| [CVE-2025-3556](https://www.cve.org/CVERecord?id=CVE-2025-3556)   | SQL Injection            | eCommerce-website-in-PHP          | **Maloy Roy Orko**   |
+| [CVE-2025-3555](https://www.cve.org/CVERecord?id=CVE-2025-3555)   | Reflected XSS            | eCommerce-website-in-PHP          | **Maloy Roy Orko**   |
+| [CVE-2025-3537](https://www.cve.org/CVERecord?id=CVE-2025-3537)   | Improper Authorization   | Employee Management System        | Security Community   |
+| [CVE-2025-3536](https://www.cve.org/CVERecord?id=CVE-2025-3536)   | Stored XSS               | Employee Management System        | Security Community   |
+| [CVE-2025-3489](https://www.cve.org/CVERecord?id=CVE-2025-3489)   | SQL Injection            | Blood Bank Management System      | Code-Projects Audit  |
+| [CVE-2025-2041](https://www.cve.org/CVERecord?id=CVE-2025-2041)   | SQL Injection            | Vehicle Service Management System | oretnom23 Audit      |
+| [CVE-2025-2036](https://www.cve.org/CVERecord?id=CVE-2025-2036)   | Stored XSS               | Vehicle Service Management System | oretnom23 Audit      |
+| [CVE-2025-2035](https://www.cve.org/CVERecord?id=CVE-2025-2035)   | Unrestricted File Upload | Vehicle Service Management System | oretnom23 Audit      |
+| [CVE-2025-1356](https://www.cve.org/CVERecord?id=CVE-2025-1356)   | Broken Authentication    | Online Library Management System  | needyamin Audit      |
+| [CVE-2025-1355](https://www.cve.org/CVERecord?id=CVE-2025-1355)   | SQL Injection            | Online Library Management System  | needyamin Audit      |
+| [CVE-2025-0844](https://www.cve.org/CVERecord?id=CVE-2025-0844)   | Stored XSS               | Library Card System               | needyamin Audit      |
+| [CVE-2025-0843](https://www.cve.org/CVERecord?id=CVE-2025-0843)   | Improper Authorization   | Library Card System               | needyamin Audit      |
+| [CVE-2025-0842](https://www.cve.org/CVERecord?id=CVE-2025-0842)   | SQL Injection            | Library Card System               | needyamin Audit      |
+| [CVE-2025-0722](https://www.cve.org/CVERecord?id=CVE-2025-0722)   | Unrestricted File Upload | Library Card System               | needyamin Audit      |
+| [CVE-2025-0721](https://www.cve.org/CVERecord?id=CVE-2025-0721)   | Reflected XSS            | image_gallery                     | needyamin Audit      |
+| [CVE-2024-13205](https://www.cve.org/CVERecord?id=CVE-2024-13205) | Stored XSS               | E-Commerce-PHP                    | kurniaramadhan Audit |
+| [CVE-2024-13204](https://www.cve.org/CVERecord?id=CVE-2024-13204) | Broken Authentication    | E-Commerce-PHP                    | kurniaramadhan Audit |
+
+> **Attribution note:** This table distinguishes records attributed to **Maloy Roy Orko** from vulnerabilities credited to other researchers, audits, or the wider security community.
+
+---
+
+## 🔍 Research Workflow
 
 ```text
 Reconnaissance
@@ -225,23 +249,23 @@ Responsible Disclosure
 
 # 🧰 Security Toolkit
 
-### Web & API Security
+### 🌐 Web & API Security
 
 `Burp Suite` `OWASP ZAP` `Wapiti` `Nuclei` `ffuf` `Katana` `SQLMap`
 
-### GraphQL Security
+### 🕸️ GraphQL Security
 
 `InQL` `GraphQL Voyager` `graphw00f`
 
-### Authentication & Application Security
+### 🔐 Authentication & Application Security
 
-`JWT Testing` `Browser DevTools` `HTTP Analysis` `Session Testing`
+`JWT Testing` `HTTP Analysis` `Session Testing` `Browser DevTools`
 
-### Network & Infrastructure
+### 🌐 Network & Infrastructure
 
 `Nmap` `Nessus` `Metasploit`
 
-### Password Security
+### 🔑 Password Security
 
 `Hashcat` `John the Ripper`
 
@@ -249,11 +273,13 @@ Responsible Disclosure
 
 # 🏴‍☠️ CTF & Competitive Security
 
-* 🏆 **Universal CTF 2026** — Global Rank **47th**
-* 🏆 **UIU CTF 2026** — Global Rank **156th / 548 teams**
-* 🏆 **Diver OSINT CTF 2026** — Global Rank **218th / 867**
-* 🥈 **5th National Research Project Contest 2026** — Runner-Up
-* 🏅 **Mebar** — Hall of Fame
+| Competition                                       | Result                            |
+| :------------------------------------------------ | :-------------------------------- |
+| 🏆 **Universal CTF 2026**                         | **Global Rank 47th**              |
+| 🏆 **UIU CTF 2026**                               | **Global Rank 156th / 548 teams** |
+| 🏆 **Diver OSINT CTF 2026**                       | **Global Rank 218th / 867**       |
+| 🥈 **5th National Research Project Contest 2026** | **Runner-Up**                     |
+| 🏅 **Mebar**                                      | **Hall of Fame**                  |
 
 ---
 
@@ -262,27 +288,27 @@ Responsible Disclosure
 ### East West University
 
 **B.Sc. in Computer Science & Engineering**
-2026 – 2030
+`2026 – 2030`
 
 ### Dhaka College
 
 **Higher Secondary Certificate — Science**
-2023 – 2025
+`2023 – 2025`
 
 ### Motijheel Government Boys' High School
 
 **Secondary School Certificate — Science**
-2013 – 2023
+`2013 – 2023`
 
 ---
 
 # 📜 Certifications & Training
 
-* PEH V1
-* Ethical Hacking
-* Itronix Cybersecurity Analyst Professional
-* Datacom Cybersecurity Job Simulation
-* Tata Cyber Security Analyst Job Simulation — Forage
+* **PEH V1**
+* **Ethical Hacking**
+* **Itronix Cybersecurity Analyst Professional**
+* **Datacom Cybersecurity Job Simulation**
+* **Tata Cyber Security Analyst Job Simulation — Forage**
 
 ---
 
@@ -290,17 +316,17 @@ Responsible Disclosure
 
 ```text
 API Security
-      ↓
+     ↓
 Android / Mobile Security
-      ↓
+     ↓
 Linux Privilege Escalation
-      ↓
+     ↓
 Windows Privilege Escalation
-      ↓
+     ↓
 Internal / Network Pentesting
-      ↓
+     ↓
 Cloud Security
-      ↓
+     ↓
 Advanced Vulnerability Research
 ```
 
@@ -310,78 +336,49 @@ Advanced Vulnerability Research
 
 ### 💼 Professional
 
-**LinkedIn**
-https://www.linkedin.com/in/maloyroyorko
-
-**GitHub**
-https://github.com/Maloyroyorko
+* **LinkedIn:** [Maloy Roy Orko](https://www.linkedin.com/in/maloyroyorko)
+* **GitHub:** [Maloyroyorko](https://github.com/Maloyroyorko)
 
 ### 🛡️ Web Security Insights
 
-**Website:**
-https://websecurityinsights.my.id
+**[Web Security Insights](https://websecurityinsights.my.id)**
 
-**Facebook — Web Security Insights By Maloy Roy Orko**
-**17K+ followers**
-https://www.facebook.com/websecinsights
+Security research, vulnerability write-ups, technical content, and cybersecurity resources.
 
-**YouTube — Web Security Insights By Maloy Roy Orko**
-**3.4K+ subscribers · 800K+ website views**
-https://www.youtube.com/@MaloyRoyOrko
+| Platform        | Presence                              |
+| :-------------- | :------------------------------------ |
+| 🔵 **Facebook** | **17K+ followers**                    |
+| 🔴 **YouTube**  | **3.4K+ subscribers**                 |
+| 🌐 **Website**  | **800K+ views**                       |
+| 📝 **Medium**   | Security research & technical writing |
 
-**Medium — Maloy Roy Orko**
-Security research & technical writing
-https://medium.com/@maloyroyorko
-
----
-
-# 📊 Community & Content Reach
-
-| Platform    |                                    Reach |
-| ----------- | ---------------------------------------: |
-| 🔵 Facebook |                       **17K+ followers** |
-| 🔴 YouTube  |                    **3.4K+ subscribers** |
-| 🌐 Website  |                          **800K+ views** |
-| 📝 Medium   |    Security research & technical writing |
-| 💻 GitHub   | Security research & open-source projects |
-| 💼 LinkedIn |            Professional security profile |
+* **Facebook:** [Web Security Insights By Maloy Roy Orko](https://www.facebook.com/websecinsights)
+* **YouTube:** [Maloy Roy Orko](https://www.youtube.com/@MaloyRoyOrko)
+* **Medium:** [@maloyroyorko](https://medium.com/@maloyroyorko)
 
 ---
 
 # 🤝 Open to Opportunities
 
-I am interested in opportunities involving:
+Interested in opportunities involving:
 
-* Penetration Testing
-* Application Security
-* API / GraphQL Security
-* Vulnerability Research
-* Bug Hunting
-* Security Research
-* Offensive Security
-* Cybersecurity Internships
+`Penetration Testing` · `Application Security` · `API Security` · `GraphQL Security` · `Vulnerability Research` · `Bug Hunting` · `Offensive Security` · `Cybersecurity Internships`
 
 ---
 
 # 📫 Contact
 
-📧 **Email:**
-[maloyroyorkooo@gmail.com](mailto:maloyroyorkooo@gmail.com)
+📧 **[maloyroyorkooo@gmail.com](mailto:maloyroyorkooo@gmail.com)**
 
-💼 **LinkedIn:**
-https://www.linkedin.com/in/maloyroyorko
-
-💻 **GitHub:**
-https://github.com/Maloyroyorko
-
-🌐 **Website:**
-https://websecurityinsights.my.id
+💼 **[LinkedIn](https://www.linkedin.com/in/maloyroyorko)**
+💻 **[GitHub](https://github.com/Maloyroyorko)**
+🌐 **[Web Security Insights](https://websecurityinsights.my.id)**
 
 ---
 
 # ⚠️ Responsible Security
 
-All security research and testing presented here is performed for **authorized, educational, research, or responsible-disclosure purposes**.
+All security research and testing presented here is conducted for **authorized, educational, research, or responsible-disclosure purposes**.
 
 I do not support unauthorized access, disruption, data theft, or malicious use of security techniques.
 
